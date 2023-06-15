@@ -31,3 +31,13 @@ The users_account system models a basic banking system. It consists of two table
   6. The `withdraw` procedure handles the withdrawal functionality, updating the balance in the `user_transactions` table.
 
   This query file contains all the necessary SQL statements, triggers, and stored procedures to set up the database and perform various banking-related operations within the banking system.
+
+* ### [Bankin_System.ipynb](https://github.com/deepakver484/Backend_System_Project/blob/main/Banking_System/Project_Banking_System.ipynb)
+
+  The included IPython Notebook file contains two classes, "users" and "balance," which are part of the banking system project.
+
+  The "users" class encompasses methods such as "add_users" for adding new users, "user_info" for retrieving user information, and "change_Address," "change_phone," and "change_name" for updating user details.
+
+  The "balance" class provides methods like "check_balance" to retrieve the current account balance, "deposit" for adding funds to the account, and "withdraw" for withdrawing funds from the account.
+
+  By utilizing these classes, the banking system can manage user-related functionalities and balance operations effectively.
