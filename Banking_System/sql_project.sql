@@ -43,7 +43,7 @@ BEGIN
 END$$
 DELIMITER ;
    
--- creating another trigger to autoupdate balance as per deposite and withdrawal
+-- creating another trigger to autoupdate balance as per deposit and withdrawal
 DELIMITER $$
 CREATE TRIGGER update_balance
 BEFORE INSERT ON account_Transactions
@@ -128,14 +128,14 @@ DELIMITER ;
 call update_phone("4561237895", 1); 
 
 
--- creating stored procedure to deposite the amount into the balance
+-- creating stored procedure to deposit the amount into the balance
     DELIMITER $$
 CREATE procedure deposit(
 	In amount int,
     IN id varchar(20)
     )
 BEGIN
-	Insert into account_transactions (Deposite, user_id)
+	Insert into account_transactions (Deposit, user_id)
     values (amount, id);
 END$$
 DELIMITER ;
