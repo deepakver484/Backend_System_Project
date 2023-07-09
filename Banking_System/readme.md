@@ -2,7 +2,7 @@
 
 The users_account system models a basic banking system. It consists of two tables: account_user and account_Transactions. The account_user table stores user information, including user_id, username, address, phone, password. The account_Transactions table records transactions with columns for Transaction_id, user_id, Deposite, Withdraw, transaction_datetime, and balance. This system enables users to perform transactions and maintains accurate account balances.
 
-* ### [Project_Query_File](https://github.com/deepakver484/Backend_System_Project/blob/main/Banking_System/sql_project.sql)
+* ### [Project_Query_File](https://github.com/deepakver484/Backend_System_Project/blob/main/Banking_System/SQL_File/sql_project.sql)
   
   The query file included in the banking system project contains SQL statements to create the necessary database tables and entities. It also includes the creation of three triggers and several stored procedures to facilitate different functionalities.
 
@@ -32,7 +32,7 @@ The users_account system models a basic banking system. It consists of two table
 
   This query file contains all the necessary SQL statements, triggers, and stored procedures to set up the database and perform various banking-related operations within the banking system.
 
-* ### [Bankin_System.ipynb](https://github.com/deepakver484/Backend_System_Project/blob/main/Banking_System/Project_Banking_System.ipynb)
+* ### [Bankin_System.ipynb](https://github.com/deepakver484/Backend_System_Project/blob/main/Banking_System/Python_file/Project_Banking_System.ipynb)
 
   The included IPython Notebook file contains two classes, "users" and "balance," which are part of the banking system project.
 
