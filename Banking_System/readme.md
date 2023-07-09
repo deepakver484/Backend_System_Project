@@ -1,7 +1,5 @@
 
 <h1 align="center">Banking_System</h1>
-
-<h3 align="center"><i>Insturctional Associate and Data Analyst</i></h3>
 <div align="center">
   <img height="300" src="https://miro.medium.com/v2/resize:fit:2400/1*zdaj_q66kjXS8rygZ7hOEw.gif"  />
 </div>
