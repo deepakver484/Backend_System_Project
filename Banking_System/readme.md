@@ -1,5 +1,12 @@
-# Banking_System
 
+<h1 align="center">Banking_System</h1>
+
+<h3 align="center"><i>Insturctional Associate and Data Analyst</i></h3>
+<div align="center">
+  <img height="300" src="https://miro.medium.com/v2/resize:fit:2400/1*zdaj_q66kjXS8rygZ7hOEw.gif"  />
+</div>
+<div align="center">
+  
 The users_account system models a basic banking system. It consists of two tables: account_user and account_Transactions. The account_user table stores user information, including user_id, username, address, phone, password. The account_Transactions table records transactions with columns for Transaction_id, user_id, Deposite, Withdraw, transaction_datetime, and balance. This system enables users to perform transactions and maintains accurate account balances.
 
 * ### [Project_Query_File](https://github.com/deepakver484/Backend_System_Project/blob/main/Banking_System/SQL_File/sql_project.sql)
